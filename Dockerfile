@@ -44,7 +44,7 @@ RUN /work/plugin_download.sh
 ##############################################################################
 FROM tomcat:$IMAGE_VERSION AS $PROJECT_NAME
 
-LABEL maintainer="Tim Sutton<tim@linfiniti.com>"
+LABEL maintainer="Erfan Mirtalebi<sarvban.com@gmail.com>"
 ARG GS_VERSION=2.25.2
 ARG STABLE_PLUGIN_BASE_URL=https://sourceforge.net/projects/geoserver/files/GeoServer
 ARG HTTPS_PORT=8443

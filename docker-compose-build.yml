@@ -4,6 +4,7 @@ volumes:
    settings:
 services:
   geoserver-prod:
+    container_name: deymzar-geoserver
     image: kartoza/geoserver:${GS_VERSION}
     volumes:
       - geoserver-data:/opt/geoserver/data_dir

@@ -42,7 +42,7 @@ RUN /work/plugin_download.sh
 ##############################################################################
 # Production stage                                                           #
 ##############################################################################
-FROM tomcat:$IMAGE_VERSION AS geoserver-prod
+FROM tomcat:$IMAGE_VERSION AS $PROJECT_NAME
 
 LABEL maintainer="Tim Sutton<tim@linfiniti.com>"
 ARG GS_VERSION=2.25.2
